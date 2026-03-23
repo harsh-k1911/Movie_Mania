@@ -1,118 +1,55 @@
-  Movie_Mania
-This project is a movie search and watchlist web application built using HTML, CSS, and JavaScript.
+# Movie Watchlist Web Application
 
-The main goal of this project is to understand how to work with APIs, handle dynamic data, and build an interactive user interface.
+## Overview
+A movie search and watchlist web app built using HTML, CSS, and JavaScript.  
+Users can search for movies, view details, and save them to a personal watchlist.
 
-Users can search for movies, view details, and save movies to a personal watchlist.
+---
 
- 
+## API Used
+OMDb API  
+https://www.omdbapi.com/
 
-  🎯 Objective
-- Learn how to fetch data from a public API
-- Practice JavaScript concepts like array methods and DOM manipulation
-- Build a responsive and user-friendly interface
+---
 
- 
+## Features
+- Search movies by title  
+- Add/remove movies from watchlist (localStorage)  
+- Dynamic rendering of movie data  
+- Responsive design  
+- Loading and empty states handling  
 
-  🌐 API Used
-- OMDb API: https://www.omdbapi.com/
+---
 
-This API is used to fetch movie data such as title, poster, year, and ratings.
+## Tech Stack
+- HTML  
+- CSS  
+- JavaScript  
 
- 
+---
 
-  🚀 Features
+## Concepts Used
+- Fetch API  
+- DOM manipulation  
+- Array methods (map, filter, find)  
+- Event handling  
+- Local storage  
 
-   🔍 Search Movies
-- Users can search movies by name
-- Results are fetched dynamically from the API
+---
 
-   ⭐ Watchlist Feature
-- Add/remove movies to a personal watchlist
-- Data is stored using localStorage
+## How to Run
+1. Clone the repository  
+2. Open the project folder  
+3. Run `index.html` in a browser  
 
-   🎲 Random Movie Suggestion (Optional Feature)
-- Suggests a random movie from the saved watchlist
+---
 
-   📭 Empty States
-- Displays a message when no results are found
-- Shows a message when the watchlist is empty
+## Status
+- API integration completed  
+- Core features implemented  
+- Final improvements and deployment in progress  
 
-   📱 Responsive Design
-- Works on mobile, tablet, and desktop screens
+---
 
- 
-
-  ⚙️ Core Concepts Used
-
-- Fetch API for data retrieval
-- DOM manipulation
-- Array methods (map, filter, find, etc.)
-- Event handling
-- Local Storage
-
- 
-
-  🧩 Additional Features (Bonus)
-
-- Debounced search input (to reduce API calls)
-- Loading indicator while fetching data
-- Error handling for failed API requests
-
- 
-
-🛠️ Technologies Used
-
-- HTML
-- CSS
-- JavaScript
-
- 
-
-📁 Project Structure
-
-
-/project-folder
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
-  📅 Milestones Covered
-
-   ✅ Milestone 1
-- Project idea finalized
-- API selected
-- Basic structure created
-
-   🔄 Milestone 2
-- API integration using fetch
-- Displaying movie data dynamically
-
-   🔄 Milestone 3
-- Search functionality
-- Watchlist feature
-- Interactive UI elements
-
-   🔄 Milestone 4
-- Final UI improvements
-- Code cleanup
-- Deployment
-
- 
-
-  💡 What I Learned
-
-- How to work with APIs in JavaScript
-- Handling user input and events
-- Managing data using localStorage
-- Writing cleaner and structured code
-
-
-
-  🚀 Future Improvements
-
-- Add movie filters (year, rating)
-- Improve UI with animations
-- Add pagination for large results
-- Dark/Light mode toggle
+## Live Demo
+(Add your deployed link here)
