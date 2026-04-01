@@ -16,7 +16,16 @@
     flex-direction: column;
     height: 600px;
     background: black;
+    color: white;
 }
 h3{
     margin-top: 10px;
 }
+
+#search {
+    text-align: center;
+    height: 30px;
+    margin-left: 1200px;
+    margin-top: 20px;
+}
+
