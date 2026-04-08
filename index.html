@@ -9,13 +9,38 @@
 <body>
 
 
-<input type="text" id="search" placeholder="Search movies..." />
+  <section class="hero">
+  <div id="poster">
+    <div>
+      <h1>🎬 Movie Explorer</h1>
+      <button>Watch Now</button>
+    </div>
+  </div>
+</section>
 
-<select id="sort">
-  <option value="">Sort</option>
-  <option value="az">A-Z</option>
-</select>
+<!-- 🔍 Controls -->
+<div class="controls">
 
+  <input type="text" id="search" placeholder="Search movies..." />
+
+  <select id="sort">
+    <option value="">Sort</option>
+    <option value="az">A-Z</option>
+    <option value="za">Z-A</option>
+    <option value="rating">Rating</option>
+  </select>
+
+  <select id="filter">
+    <option value="">Filter</option>
+    <option value="highRating">High Rating (7+)</option>
+    <option value="favorites">Favorites</option>
+  </select>
+
+  <button id="themeToggle">🌙</button>
+
+</div>
+
+<!-- 🎬 Movie Grid -->
 <div id="ui"></div>
 
 
